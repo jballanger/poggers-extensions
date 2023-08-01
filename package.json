@@ -1,0 +1,27 @@
+{
+  "name": "poggers-extensions",
+  "version": "1.0.0",
+  "description": "Some poggers sources for Paperback",
+  "scripts": {
+    "test": "node_modules/.bin/mocha --timeout 300000 -r ts-node/register src/**/*.test.ts",
+    "bundle": "paperback bundle",
+    "serve": "paperback serve",
+    "log": "paperback logcat --ip=192.168.1.4"
+  },
+  "author": "jballanger",
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "@types/cheerio": "^0.22.31",
+    "@typescript-eslint/eslint-plugin": "^6.2.0",
+    "@typescript-eslint/parser": "^6.2.0",
+    "eslint": "^8.46.0",
+    "eslint-config-prettier": "^8.9.0",
+    "prettier": "3.0.0",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@paperback/toolchain": "^0.8.0-alpha.47",
+    "@paperback/types": "^0.8.0-alpha.47",
+    "cheerio": "^1.0.0-rc.12"
+  }
+}
