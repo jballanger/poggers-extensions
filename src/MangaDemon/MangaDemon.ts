@@ -227,7 +227,7 @@ export class MangaDemon
 
   async searchManga(search: string) {
     const request = App.createRequest({
-      url: `${BASE_URL}/search.php?manga=${search}`,
+      url: `${BASE_URL}/search.php?manga=${encodeURIComponent(search)}`,
       method: 'GET',
     });
     const result = await this.requestManager.schedule(request, 1);
