@@ -34,7 +34,7 @@ import {
 const BASE_URL = 'https://mangademon.org';
 
 export const MangaDemonInfo: SourceInfo = {
-  version: '1.0.0',
+  version: '1.0.1',
   name: 'MangaDemon',
   icon: 'icon.png',
   author: 'jballanger',
