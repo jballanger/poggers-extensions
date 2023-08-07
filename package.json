@@ -1,6 +1,6 @@
 {
   "name": "poggers-extensions",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Some poggers sources for Paperback",
   "scripts": {
     "test": "node_modules/.bin/mocha --timeout 300000 -r ts-node/register src/**/*.test.ts",
