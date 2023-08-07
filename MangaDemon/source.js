@@ -21561,7 +21561,7 @@ const types_1 = require("@paperback/types");
 const MangaDemonParser_1 = require("./MangaDemonParser");
 const BASE_URL = 'https://mangademon.org';
 exports.MangaDemonInfo = {
-    version: '1.0.0',
+    version: '1.0.1',
     name: 'MangaDemon',
     icon: 'icon.png',
     author: 'jballanger',
